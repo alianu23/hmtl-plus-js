@@ -1,0 +1,14 @@
+div {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    
+}
+.box {
+
+    height: 300px;
+    width: 300px;
+    
+    border: 1px solid black;
+
+}

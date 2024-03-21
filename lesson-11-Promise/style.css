@@ -1,0 +1,67 @@
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#remain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#wtrInput {
+  padding: 12px;
+  color: #111111;
+  font-weight: 400;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 2px solid #d1d3d4;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2) inset;
+}
+#addBtn {
+  border: none;
+  background-color: #0d75ec;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+#addBtn:hover {
+  background-color: #245388;
+}
+h1 {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  padding: 10px;
+  font-size: 24px;
+}
+h3 {
+  padding: 5px;
+  font-size: 18px;
+  margin: 10px;
+  font-weight: 400;
+}
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+}
+.picture {
+  width: 480px;
+  height: 319px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.box {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+}

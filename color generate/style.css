@@ -1,0 +1,28 @@
+
+.box {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: bisque;
+
+}
+button:hover{
+    padding: 10px;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}

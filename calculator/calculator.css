@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+html {
+  font-family: 'Inter';
+  font-weight: 400;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+.calculator {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 232px;
+  height: 321px;
+  border: 1px solid #464647;
+  border-radius: 6px;
+  background-color: #464647;
+ 
+}
+
+.display {
+  width: 100%;
+  height: 81px; 
+}
+.display > p {
+    margin-top: 30px;
+    padding-right: 20px;
+    text-align: right;
+    height: 25%;
+    color: #fff;
+    font-size: 44px;
+  }
+span {
+  box-sizing: border-box;
+  text-align: center; 
+  width: 25%;
+  background-color: #777677;
+  border-top: 1px solid #464647;
+  border-left: 1px solid #464647;
+  color: #fff;
+  padding-top: 11px ;
+}
+.operator,.equal {
+  background-color: #FF9F0A;
+  color: white;
+  font-size: 18px;
+}
+
+.zero {
+  width: 50%;
+}
+.grey {
+  background-color: #585859;
+}

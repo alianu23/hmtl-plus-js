@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#clock{
+    font-size: 23px;
+}
+#date{
+    font-size: 23px;
+}

@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+#todoInput {
+  width: 300px;
+  height: 45px;
+  padding: 12px;
+  color: #111111;
+  font-weight: 400;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 2px solid #d1d3d4;
+  margin-right: 5px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2) inset;
+}
+
+#addBtn {
+  width: 45px;
+  height: 45px;
+  border: none;
+  background-color: #0d75ec;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#addBtn:hover {
+  background-color: #245388;
+  transition: 0.3s;
+}
+.tasks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  transition: ease-in 0.3s;
+  background-color: lightgrey;
+  background-image: url(Wallpaper.jpeg);
+}
+
+.done {
+  width: 100%;
+  font-size: 2rem;
+  font-weight: bold;
+  background: linear-gradient(164deg, #d9d9d9 0%, rgba(217, 217, 217, 0) 100%);
+  border-radius: 5px;
+  padding: 5px;
+  color: black;
+  text-decoration: line-through;
+}
+.inprogress {
+  width: 100%;
+  background: linear-gradient(164deg, #d9d9d9 0%, rgba(217, 217, 217, 0) 100%);
+  border-radius: 5px;
+  padding: 5px;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.edito {
+  width: 100%;
+  background: linear-gradient(164deg, #d9d9d9 0%, rgba(217, 217, 217, 0) 100%);
+  border-radius: 5px;
+  margin: 32px 0;
+  padding: 5px;
+  color: black;
+  font-family: "inter";
+  font-size: 2rem;
+  font-weight: bold;
+  border: none;
+  border: 1px solid darkgray;
+}
+input[type="submit"] {
+  margin-left: -50px;
+  height: 25px;
+  width: 50px;
+  background: blue;
+  color: white;
+  border: 0;
+  -webkit-box-flex: none;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.deleteBtn {
+  background-color: rgb(205, 13, 13);
+}
+
+.editBtn {
+  background-color: #0d75ec;
+}
+.checkBtn {
+  background-color: green;
+  margin: 0 30px;
+}
+.deleteBtn:hover {
+  background-color: rgb(146, 31, 31);
+}
+.editBtn:active {
+  background-color: #215189;
+}
+.checkBtn:active {
+  background-color: rgb(15, 82, 15);
+}
+
+.first {
+  display: flex;
+}

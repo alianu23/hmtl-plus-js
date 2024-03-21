@@ -1,0 +1,101 @@
+.gogo-header{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  height: 20px;
+ 
+}
+.titles{
+  display: flex;
+  padding:6px 15px 0 15px;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.news{
+  padding:0px 20px 0 20px;
+}
+.gogoin{
+  padding:0px 15px 0 15px;
+}
+.live{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:0px 20px 0 20px;
+}
+.content{
+  padding:0px 15px 0 15px;
+}
+.language{
+  padding:0px 15px 0 15px;
+}
+.searchbtn{
+  padding:0px 20px 0 20px;
+}
+.top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 30px;
+  font-size: 12px;
+  font-weight: 100;
+}
+.bottom{
+  display: flex;
+  padding: 5px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.bottomlogo{
+  padding-right: 5px;
+}
+.dollar{
+  border-right: 1px solid grey;
+}
+.inf1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+  height: 350px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-right: 20px;
+  background: rgb(224,221,221);
+  background: linear-gradient(90deg, rgba(224,221,221,1) 0%, rgba(225,225,232,1) 35%, rgba(255,254,254,0) 100%);
+  border-radius: 10px;
+}
+.niigem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 70px;
+  height: 30px;
+  color: white;
+  border-radius: 50px;
+  background: rgb(200,55,0);
+  background: linear-gradient(90deg, rgba(200,55,0,1) 0%, rgba(215,82,22,1) 35%, rgba(239,109,51,0) 100%);
+}
+.garchig{
+  font-size: 24px;
+  margin-top:10px 
+}
+.tailbar{
+  font-size: 12px;
+  margin-top:10px;
+  color: #989898;  
+}
+.inf{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding-top: 30px;
+  
+}
+.pic1{
+  width : 500px; 
+  height: 350px
+}

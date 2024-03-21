@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 300px;
+  height: 500px;
+}
+#prev,
+#next {
+  margin: 10px;
+  width: auto;
+  height: 50px;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  transition: all 2s ease;
+  background-color: #010101;
+  color: beige;
+}
+.slide,
+.active {
+  animation: fade 1.5s;
+  transition: all;
+}
+#next:hover,
+#prev:hover {
+  background-color: white;
+  color: #010101;
+}
+@keyframes fade {
+  from {
+    opacity: 0.6;
+  }
+  to {
+    opacity: 1;
+  }
+}
